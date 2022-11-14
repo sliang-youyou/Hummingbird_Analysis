@@ -1,0 +1,33 @@
+producer_class	xtools.gsea.Gsea
+producer_timestamp	1649696865375
+param	zip_report	false
+param	num	100
+param	scoring_scheme	weighted
+param	norm	meandiv
+param	out	C:\Users\nushi\OneDrive - Cornell University\Anusha_personal\Cornell\TorporFieldwork_IR\RNASeq_andQC_data\DESeq_Data_Mar2022_all tissues\all tissues\final
+param	mode	Max_probe
+param	include_only_symbols	true
+param	set_max	500
+param	gmx	ftp.broadinstitute.org://pub/gsea/gene_sets/h.all.v7.5.1.symbols.gmt
+param	plot_top_x	20
+param	nperm	1000
+param	order	descending
+param	rnd_seed	timestamp
+param	rpt_label	Pect_D_vs_N
+param	set_min	15
+param	res	C:\Users\nushi\OneDrive - Cornell University\Anusha_personal\Cornell\TorporFieldwork_IR\RNASeq_andQC_data\DESeq_Data_Mar2022_all tissues\all tissues\final\RNASeq_NormCounts_gsea.gct
+param	create_svgs	false
+param	cls	C:\Users\nushi\OneDrive - Cornell University\Anusha_personal\Cornell\TorporFieldwork_IR\RNASeq_andQC_data\DESeq_Data_Mar2022_all tissues\all tissues\final\Pheno_labs_tissue_state.cls#Pect_D_versus_Pect_N
+param	sort	real
+param	create_gcts	false
+param	help	false
+param	save_rnd_lists	false
+param	median	false
+param	metric	Signal2Noise
+param	make_sets	true
+param	rnd_type	no_balance
+param	gui	false
+param	permute	gene_set
+param	collapse	No_Collapse
+
+file	C:\Users\nushi\OneDrive - Cornell University\Anusha_personal\Cornell\TorporFieldwork_IR\RNASeq_andQC_data\DESeq_Data_Mar2022_all tissues\all tissues\final\Pect_D_vs_N.Gsea.1649696865375\index.html
